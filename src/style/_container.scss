@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+  .login-panel {
+    display: flex;
+    flex-direction: column;
+    padding: $panel-padding-y $panel-padding-x;
+    border: $border-width solid $primary-color;
+  }
+}

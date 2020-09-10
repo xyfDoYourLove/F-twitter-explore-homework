@@ -2,3 +2,11 @@
   margin-top: 0;
   font-size: $font-size;
 }
+
+@mixin btn-option($bg-color, $color) {
+  background-color: $bg-color;
+  color: $color;
+  border-radius: $btn-border-radius;
+  border: $border-width solid $primary-color;
+  padding: $btn-padding-y $btn-padding-x;
+}

@@ -12,6 +12,9 @@ body {
   color: $color-base;
   background-color: $body-bg;
   line-height: $line-height-base;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 * {
@@ -40,7 +43,8 @@ button {
   line-height: inherit;
 }
 
-h1 {
+h1,
+h2 {
   color: $heading-color;
   margin: 0;
 }

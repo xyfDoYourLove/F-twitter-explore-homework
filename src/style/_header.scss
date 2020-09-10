@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $header-padding-y $header-padding-x;
+  border-bottom: 2px solid $gray-dark;
+
+  .login-top {
+    @include btn-option($body-bg, $primary-color);
+  }
+  .register-top {
+    @include btn-option($primary-color, $white);
+  }
+}
