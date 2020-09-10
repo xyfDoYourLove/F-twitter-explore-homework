@@ -7,8 +7,10 @@
 
   .login-top {
     @include btn-option($body-bg, $primary-color);
+    padding: $btn-padding-y $btn-padding-x;
   }
   .register-top {
     @include btn-option($primary-color, $white);
+    padding: $btn-padding-y $btn-padding-x;
   }
 }

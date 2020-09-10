@@ -7,7 +7,48 @@
   .login-panel {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: $panel-padding-y $panel-padding-x;
-    border: $border-width solid $primary-color;
+    border: $border-width solid $border-color;
+    border-radius: 5px;
+
+    h2 {
+      padding: 0 $panel-item-padding-x $panel-item-padding-y
+        $panel-item-padding-x;
+    }
+
+    input {
+      background-color: $body-bg;
+      border: none;
+      outline: none;
+      padding: $panel-item-padding-y 0;
+      &::placeholder {
+        font-size: $font-size-base;
+        color: $place-holder-color;
+      }
+    }
+
+    a {
+      padding: $panel-item-padding-y 0;
+      text-decoration-line: none;
+      color: $primary-color;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .login-container {
+      @include btn-option($body-bg, $primary-color);
+    }
+
+    .register-container {
+      @include btn-option($primary-color, $white);
+    }
+
+    .split-line {
+      width: 100%;
+      border: 1px solid $border-color;
+    }
   }
 }

@@ -17,13 +17,18 @@ $link-color: $gray !default;
 $link-hover-color: darken($link-color, 15%) !default;
 $border-color: rgb(61, 84, 102);
 
-$header-padding-x: 40px;
-$header-padding-y: 10px;
+$header-padding-x: 5%;
+$header-padding-y: 1.5%;
 $btn-padding-y: 5px;
 $btn-padding-x: 35px;
 
 $btn-border-radius: 60px;
-$border-width: 1px;
+$border-width: 2px;
 
-$panel-padding-y: 20px;
+$panel-padding-y: 30px;
 $panel-padding-x: 20px;
+
+$panel-item-padding-y: 20px;
+$panel-item-padding-x: 10px;
+
+$place-holder-color: #8899a7;
