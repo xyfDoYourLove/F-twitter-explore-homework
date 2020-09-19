@@ -1,3 +1,4 @@
+//TODO feedback: 应该多采用class选择器，而不是标签选择器
 .container {
   display: flex;
   justify-content: center;
@@ -22,6 +23,7 @@
       border: none;
       outline: none;
       padding: $panel-item-padding-y 0;
+      //TODO feedback嵌套层次太深了点，三层是上限
       &::placeholder {
         font-size: $font-size-base;
         color: $place-holder-color;
@@ -37,7 +39,7 @@
     p {
       text-align: center;
     }
-
+    // TODO feedback @include使用正确
     .login-container {
       @include btn-option($body-bg, $primary-color);
     }

@@ -1,3 +1,4 @@
+//TODO feedback: class命名不够合理，叫btn-base更好一些
 @mixin btn-option($bg-color, $color) {
   background-color: $bg-color;
   color: $color;

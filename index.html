@@ -20,15 +20,20 @@
     </div>
   </header>
   <main class="container">
+    <!--    TODO feedback: 这里应该使用form标签，因为它是一个form-->
     <section class="login-panel">
       <h2>查看世界上正在发生的事情</h2>
+      <!--      TODO feedback: 语义化标签使用不正确：placeholder里面的内容应该放入<label>标签-->
       <input type="text" placeholder="电话、邮件地址或用户名" class="username">
+<!--      TODO feedback: 这里应该就使用input的css的border-bottom来让它有一个底边-->
       <span class="split-line"></span>
       <input type="text" placeholder="密码" class="password">
       <span class="split-line"></span>
       <a href="index.html" class="forget">忘记密码？</a>
+<!--      TODO feedback: login-button更合理-->
       <button class="login-container">登录</button>
       <p>或</p>
+      <!--      TODO feedback: register-button更合理-->
       <button class="register-container">注册</button>
     </section>
   </main>
